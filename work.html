@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work | Premium Digital Experiences</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="cursor-follower" id="cursor"></div>
+
+    <nav id="navbar">
+        <div class="logo">HARIHAR<span class="gradient-text">.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <button class="theme-toggle" id="theme-toggle" style="background:none; border:none; color:var(--text-main); cursor:pointer;">
+                <i data-lucide="sun" size="20"></i>
+            </button>
+            <a href="index.html#contact" class="btn-premium">Let's Talk</a>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 50vh; padding-top: 12rem;">
+        <div class="hero-img-container">
+            <div class="hero-img-inner">
+                <i data-lucide="layers" size="64" class="gradient-text"></i>
+            </div>
+        </div>
+        <span>Selected Projects</span>
+        <h1 style="font-size: 4rem;">Showcasing <span class="gradient-text">Digital Excellence</span></h1>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <i data-lucide="shopping-cart" size="48" style="opacity: 0.1;"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Revolution</h3>
+                        <p>Web Design & Development</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <i data-lucide="activity" size="48" style="opacity: 0.1;"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>HealthTech Dashboard</h3>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <i data-lucide="cpu" size="48" style="opacity: 0.1;"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>SAAS Platform</h3>
+                        <p>Full Stack Engineering</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <i data-lucide="monitor" size="48" style="opacity: 0.1;"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Creative Agency Site</h3>
+                        <p>Branding & Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 8rem 0 4rem; text-align: center; border-top: 1px solid var(--border-card);">
+        <div class="container">
+            <div class="logo" style="margin-bottom: 2rem;">HARIHAR<span class="gradient-text">.</span></div>
+            <p class="text-dim" style="margin-bottom: 3rem;">© 2026 Premium Digital Experiences. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

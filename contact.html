@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Premium Digital Experiences</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="cursor-follower" id="cursor"></div>
+
+    <nav id="navbar">
+        <div class="logo">HARIHAR<span class="gradient-text">.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <button class="theme-toggle" id="theme-toggle" style="background:none; border:none; color:var(--text-main); cursor:pointer;">
+                <i data-lucide="sun" size="20"></i>
+            </button>
+            <a href="index.html#contact" class="btn-premium">Let's Talk</a>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 50vh; padding-top: 12rem;">
+        <div class="hero-img-container">
+            <div class="hero-img-inner">
+                <i data-lucide="mail" size="64" class="gradient-text"></i>
+            </div>
+        </div>
+        <span>Get In Touch</span>
+        <h1 style="font-size: 4rem;">Let's Create <span class="gradient-text">Something Impactful</span></h1>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="contact-container">
+                <form id="contact-form">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                        <div class="form-group">
+                            <label>YOUR NAME</label>
+                            <input type="text" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label>YOUR EMAIL</label>
+                            <input type="email" placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>YOUR MESSAGE</label>
+                        <textarea placeholder="Tell me about your project..." rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn-premium filled" style="width: 100%; justify-content: center;">Submit Now <i data-lucide="send" size="18"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 8rem 0 4rem; text-align: center; border-top: 1px solid var(--border-card);">
+        <div class="container">
+            <div class="logo" style="margin-bottom: 2rem;">HARIHAR<span class="gradient-text">.</span></div>
+            <p class="text-dim" style="margin-bottom: 3rem;">© 2026 Premium Digital Experiences. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
