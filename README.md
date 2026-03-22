@@ -1,0 +1,47 @@
+# Harihar Manohar Kadhe - Premium Developer Portfolio ✨
+
+A stunning, ultra-modern, and high-performance digital portfolio built to showcase technical expertise across IoT, frontend interfaces, and robust backend systems. 
+
+Designed with a focus on immersive user experiences, smooth JavaScript micro-interactions, and pure CSS glassmorphism.
+
+![Portfolio Layout](assets/studyhub.jpeg) <!-- *Will display once images are uploaded!* -->
+
+## 🚀 Key Features
+
+- **Premium UI/UX:** Dark-mode aesthetic with custom gold accents, sleek 3D hover-tilt interactions, and dynamic custom cursor tracking.
+- **Zero Framework Bloat:** Built with pure, lightning-fast HTML5, CSS3, and modern Vanilla JavaScript.
+- **Live AJAX Contact Routing:** Fully functional messaging system powered by FormSubmit that securely routs emails directly to the inbox without messy CAPTCHA redirects.
+- **Dynamic Insights Engine:** A completely custom blog grid with staggered JavaScript animation logic to reveal hidden articles dynamically.
+- **Mobile First:** 100% responsive flexbox/grid layout guaranteeing a pristine viewing experience across all device sizes.
+
+## 🛠️ Featured Projects Included
+
+1. **ElectroSafe Website:** A dedicated Village Electricity Grievance Portal interface. 
+2. **Smart Study Hub:** A high-level Dashboard for tracking educational materials and dynamic uploads.
+3. **Smart Farming Dashboard:** An IoT monitoring platform actively powered by the **Raspberry Pi Pico W**.
+
+## 💻 Tech Stack
+
+- **Structure:** HTML5 Semantic Markup
+- **Styling:** Advanced CSS3 (CSS Variables, Flexbox, CSS Grid, Hover Transfoms, Glassmorphism gradients)
+- **Logic:** Vanilla JavaScript (ES6+)
+- **Iconography:** Lucide Icons API
+- **Deployment:** Vercel (Ready)
+
+## 🌐 Deployment Instructions
+
+This repository is completely structured for zero-configuration modern static hosting.
+
+1. Create a free account on [Vercel](https://vercel.com/).
+2. Click **Add New Project**.
+3. Import this exact GitHub repository.
+4. Leave all settings exactly as default (Framework Preset: `Other`).
+5. Click **Deploy**.
+
+## 📬 Contact Me
+
+- **Email:** hariharkadhe2@gmail.com
+- **LinkedIn:** [in/harihar-kadhe-930979316](https://in.linkedin.com/in/harihar-kadhe-930979316)
+
+---
+*If you are visiting this repository, be sure to click the live Vercel link located in the 'About' section of this GitHub page!*
