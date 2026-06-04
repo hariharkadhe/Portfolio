@@ -187,3 +187,4 @@ This repository is completely structured for zero-configuration modern static ho
 <!-- dev_sync_multi: Adjust margin and padding for mobile 2026-05-31T17:56:53+05:30 -->
 <!-- dev_sync_multi: Fix minor responsive issues 2026-06-02T12:32:22+05:30 -->
 <!-- dev_sync_multi: Fix typo in content 2026-06-02T12:35:50+05:30 -->
+<!-- dev_sync_multi: Tweak animations and transitions 2026-06-04T16:28:52+05:30 -->
