@@ -97,3 +97,4 @@ This repository is completely structured for zero-configuration modern static ho
 <!-- dev_sync: Adjust color variables 2026-06-10T12:14:29+05:30 -->
 <!-- dev_sync: Code cleanup and formatting 2026-06-11T16:09:42+05:30 -->
 <!-- dev_sync: Fix typo in content 2026-06-12T15:15:57+05:30 -->
+<!-- dev_sync: Update documentation 2026-06-14T14:11:29+05:30 -->
