@@ -246,13 +246,13 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'TECHXPLORE 2K26',
             subtitle: 'Technical Hackathon Winner',
             description: '🥇 Winner – TECHXPLORE 2K26 Technical Hackathon (100+ teams)',
-            photos: ['assets/cert-2.jpg', 'assets/achieve-4.jpg']
+            photos: ['assets/cert-2.jpg', 'assets/achieve-1.jpg']
         },
         'cert-5': {
             title: 'Annual Science Exhibition',
             subtitle: 'Outstanding Achievement',
             description: 'Certificate of appreciation for exceptional performance and securing a winning position in the annual science exhibition.',
-            photos: ['assets/cert-1.jpg', 'assets/achieve-1.jpg']
+            photos: ['assets/cert-1.jpg', 'assets/achieve-4.jpg']
         },
 
         'city-eye': {
