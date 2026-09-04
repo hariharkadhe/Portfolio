@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'ElectroSafe',
             subtitle: 'Village Electricity Grievance Portal',
             description: 'A platform to manage and track village electricity grievances.',
-            photos: ['assets/electrosafe-1.jpg', 'assets/electrosafe-2.jpg', 'assets/electrosafe-3.jpg']
+            photos: ['assets/electrosafe-front.png', 'assets/electrosafe-admin.png']
         },
         'studyhub': {
             title: 'Smart Study Hub',
