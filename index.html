@@ -201,21 +201,36 @@
                 <h2>My latest work</h2>
             </div>
             <div class="project-grid">
-                <div class="project-card" style="background-image: url('assets/electrosafe.jpeg'); background-size: cover; background-position: top;">
+                <div data-project-id="city-eye" class="project-card" style="background-image: url('assets/city-eye-1.jpg'); background-size: cover; background-position: center;">
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.9) 0%, rgba(2,6,23,0.2) 60%, rgba(2,6,23,0) 100%); opacity: 1;"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary); text-shadow: 0 0 10px rgba(0,0,0,0.8);">City-Eye</h3>
+                        <p style="color: white; font-weight: bold; text-shadow: 0 0 5px rgba(0,0,0,0.8);">AI-powered Smart City Command Center</p>
+                    </div>
+                </div>
+                <div data-project-id="iogenius" class="project-card" style="background-image: url('assets/iogenius-1.jpg'); background-size: cover; background-position: center;">
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.9) 0%, rgba(2,6,23,0.2) 60%, rgba(2,6,23,0) 100%); opacity: 1;"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary); text-shadow: 0 0 10px rgba(0,0,0,0.8);">IOGENIUS</h3>
+                        <p style="color: white; font-weight: bold; text-shadow: 0 0 5px rgba(0,0,0,0.8);">AI-powered IoT Development Platform</p>
+                    </div>
+                </div>
+
+                <div data-project-id="electrosafe" class="project-card" style="background-image: url('assets/electrosafe.jpeg'); background-size: cover; background-position: top;">
                     <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.9) 0%, rgba(2,6,23,0.2) 60%, rgba(2,6,23,0) 100%); opacity: 1;"></div>
                     <div class="project-info">
                         <h3 style="color: var(--primary); text-shadow: 0 0 10px rgba(0,0,0,0.8);">ElectroSafe</h3>
                         <p style="color: white; font-weight: bold; text-shadow: 0 0 5px rgba(0,0,0,0.8);">Village Electricity Grievance Portal</p>
                     </div>
                 </div>
-                <div class="project-card" style="background-image: url('assets/studyhub.jpeg'); background-size: cover; background-position: top;">
+                <div data-project-id="studyhub" class="project-card" style="background-image: url('assets/studyhub.jpeg'); background-size: cover; background-position: top;">
                     <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.9) 0%, rgba(2,6,23,0.2) 60%, rgba(2,6,23,0) 100%); opacity: 1;"></div>
                     <div class="project-info">
                         <h3 style="color: var(--primary); text-shadow: 0 0 10px rgba(0,0,0,0.8);">Smart Study Hub</h3>
                         <p style="color: white; font-weight: bold; text-shadow: 0 0 5px rgba(0,0,0,0.8);">Dashboard for tracking materials and uploads</p>
                     </div>
                 </div>
-                <div class="project-card" style="background-image: url('assets/farming.jpeg'); background-color: var(--bg-card); background-size: cover; background-position: top;">
+                <div data-project-id="farming" class="project-card" style="background-image: url('assets/farming.jpeg'); background-color: var(--bg-card); background-size: cover; background-position: top;">
                     <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.9) 0%, rgba(2,6,23,0.2) 60%, rgba(2,6,23,0) 100%); opacity: 1;"></div>
                     <div class="project-info">
                         <h3 style="color: var(--primary); text-shadow: 0 0 10px rgba(0,0,0,0.8);">Smart Farming Dashboard</h3>
@@ -391,5 +406,19 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" style="background: rgba(15, 23, 42, 0.8); border-radius: 50%; padding: 0.5rem; display: flex;"><i data-lucide="x" size="24"></i></button>
+            <div id="modal-gallery" class="modal-gallery">
+                <!-- Images will be injected here -->
+            </div>
+            <h2 id="modal-title" class="modal-title">Project Title</h2>
+            <p id="modal-subtitle" class="modal-subtitle">Project Subtitle</p>
+            <p id="modal-description" class="modal-description">Project Description</p>
+        </div>
+    </div>
+
 </body>
 </html>

@@ -218,3 +218,94 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Project Modal Data
+    const projectData = {
+        'city-eye': {
+            title: 'City-Eye',
+            subtitle: 'Real-time, AI-powered smart city command center',
+            description: 'Built with React, FastAPI, and YOLOv8 to autonomously detect and geospatially map civic incidents from live video feeds.',
+            photos: ['assets/city-eye-1.jpg', 'assets/city-eye-2.jpg']
+        },
+        'iogenius': {
+            title: 'IOGENIUS',
+            subtitle: 'AI-powered IoT development platform',
+            description: 'Built with React, Python FastAPI & Gemini AI; features cloud project history (MongoDB Atlas), real-time AI chat, and 1-click browser firmware flashing.',
+            photos: ['assets/iogenius-1.jpg', 'assets/iogenius-2.jpg']
+        },
+        'electrosafe': {
+            title: 'ElectroSafe',
+            subtitle: 'Village Electricity Grievance Portal',
+            description: 'A platform to manage and track village electricity grievances.',
+            photos: ['assets/electrosafe.jpeg']
+        },
+        'studyhub': {
+            title: 'Smart Study Hub',
+            subtitle: 'Dashboard for tracking materials and uploads',
+            description: 'A smart study dashboard for tracking materials and uploads.',
+            photos: ['assets/studyhub.jpeg']
+        },
+        'farming': {
+            title: 'Smart Farming Dashboard',
+            subtitle: 'IoT monitoring platform powered by Raspberry Pi Pico W',
+            description: 'IoT monitoring platform powered by Raspberry Pi Pico W for smart farming.',
+            photos: ['assets/farming.jpeg']
+        }
+    };
+
+    const modal = document.getElementById('project-modal');
+    const closeBtn = document.querySelector('.close-modal');
+    
+    if (modal) {
+        // Setup clicking on project cards
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', (e) => {
+                const projectId = card.getAttribute('data-project-id');
+                if (projectId && projectData[projectId]) {
+                    const data = projectData[projectId];
+                    
+                    document.getElementById('modal-title').innerText = data.title;
+                    document.getElementById('modal-subtitle').innerText = data.subtitle;
+                    document.getElementById('modal-description').innerText = data.description;
+                    
+                    const gallery = document.getElementById('modal-gallery');
+                    gallery.innerHTML = '';
+                    data.photos.forEach(photoSrc => {
+                        const img = document.createElement('img');
+                        img.src = photoSrc;
+                        img.onerror = function() {
+                            this.src = 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800';
+                        };
+                        gallery.appendChild(img);
+                    });
+
+                    modal.classList.add('show');
+                    document.body.style.overflow = 'hidden';
+                    
+                    // Re-initialize lucide icons for the new content if needed
+                    if (window.lucide) window.lucide.createIcons();
+                }
+            });
+        });
+
+        const closeModal = () => {
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        };
+
+        if (closeBtn) closeBtn.addEventListener('click', closeModal);
+        
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('show')) {
+                closeModal();
+            }
+        });
+    }
+});
