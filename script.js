@@ -223,6 +223,38 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // Project Modal Data
     const projectData = {
+
+        'cert-1': {
+            title: 'TECH-AURA 2026',
+            subtitle: '1st Rank in Intercollegiate Hackathon',
+            description: 'Awarded for securing the First Rank in the Hackathon at TECH-AURA 2026, demonstrating exceptional technical and problem-solving skills.',
+            photos: ['assets/cert-1.jpg']
+        },
+        'cert-2': {
+            title: 'TECHTANTRA 2K26',
+            subtitle: 'National Level Technical Event',
+            description: 'Awarded for outstanding performance and securing a top rank in the national level technical event organized by ISTE Cell.',
+            photos: ['assets/cert-2.jpg']
+        },
+        'cert-3': {
+            title: 'Manthan4Yuva Campaign',
+            subtitle: '1st Rank in Smart City Competition',
+            description: 'Certificate of Excellence for securing 1st position in the Smart City hackathon and ideation competition.',
+            photos: ['assets/cert-3.jpg']
+        },
+        'cert-4': {
+            title: 'TECHXPLORE 2K26',
+            subtitle: 'Technical Hackathon Winner',
+            description: 'Proudly awarded for actively participating and securing the Winner position in the Departmental Technical Hackathon.',
+            photos: ['assets/cert-4.jpg']
+        },
+        'cert-5': {
+            title: 'Annual Science Exhibition',
+            subtitle: 'Outstanding Achievement',
+            description: 'Certificate of appreciation for exceptional performance and securing a winning position in the annual science exhibition.',
+            photos: ['assets/cert-5.jpg']
+        },
+
         'city-eye': {
             title: 'City-Eye',
             subtitle: 'Real-time, AI-powered smart city command center',
