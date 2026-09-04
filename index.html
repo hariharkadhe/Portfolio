@@ -251,11 +251,18 @@
         <div class="container">
             <div class="section-header">
                 <span>Achievements</span>
-                <h2>Certificate Gallery</h2>
+                <h2>Gallery</h2>
             </div>
-            <div class="certificate-grid">
-                <!-- Cert 1 -->
-                <div data-project-id="cert-1" class="certificate-card project-card" style="background-image: url('assets/cert-1.jpg');">
+            
+            <div class="tabs-container" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+                <button class="tab-btn active" onclick="switchTab('certs')">Certificates</button>
+                <button class="tab-btn" onclick="switchTab('achievements')">Achievement Photos</button>
+            </div>
+
+            <!-- Certificates Grid -->
+            <div id="certs-grid" class="certificate-grid active-grid">
+                <!-- Cert 1 (TECH-AURA - actually swapped image but we keep ID) -->
+                <div data-project-id="cert-1" class="certificate-card project-card" style="background-image: url('assets/cert-5.jpg');">
                     <div class="cert-id-badge">#CERT-01</div>
                     <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
                     <div class="project-info">
@@ -290,8 +297,8 @@
                         <p style="color: white; font-weight: bold;">Technical Hackathon Winner</p>
                     </div>
                 </div>
-                <!-- Cert 5 -->
-                <div data-project-id="cert-5" class="certificate-card project-card" style="background-image: url('assets/cert-5.jpg');">
+                <!-- Cert 5 (Science Exhibition) -->
+                <div data-project-id="cert-5" class="certificate-card project-card" style="background-image: url('assets/cert-1.jpg');">
                     <div class="cert-id-badge">#CERT-05</div>
                     <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
                     <div class="project-info">
@@ -300,9 +307,58 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Achievements Grid -->
+            <div id="achievements-grid" class="certificate-grid" style="display: none;">
+                <!-- Achieve 1 (Mapped to TECH-AURA) -->
+                <div data-project-id="cert-1" class="certificate-card project-card" style="background-image: url('assets/achieve-5.jpg');">
+                    <div class="cert-id-badge">#ACH-01</div>
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary);">TECH-AURA Team</h3>
+                        <p style="color: white; font-weight: bold;">Hackathon Winners</p>
+                    </div>
+                </div>
+                <!-- Achieve 2 -->
+                <div data-project-id="cert-2" class="certificate-card project-card" style="background-image: url('assets/achieve-2.jpg');">
+                    <div class="cert-id-badge">#ACH-02</div>
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary);">TECHTANTRA 2K26</h3>
+                        <p style="color: white; font-weight: bold;">Event Participation</p>
+                    </div>
+                </div>
+                <!-- Achieve 3 -->
+                <div data-project-id="cert-3" class="certificate-card project-card" style="background-image: url('assets/achieve-3.jpg');">
+                    <div class="cert-id-badge">#ACH-03</div>
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary);">Manthan4Yuva</h3>
+                        <p style="color: white; font-weight: bold;">Smart City Winners</p>
+                    </div>
+                </div>
+                <!-- Achieve 4 -->
+                <div data-project-id="cert-4" class="certificate-card project-card" style="background-image: url('assets/achieve-4.jpg');">
+                    <div class="cert-id-badge">#ACH-04</div>
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary);">TECHXPLORE 2K26</h3>
+                        <p style="color: white; font-weight: bold;">Hackathon Winners</p>
+                    </div>
+                </div>
+                <!-- Achieve 5 (Science Exhibition) -->
+                <div data-project-id="cert-5" class="certificate-card project-card" style="background-image: url('assets/achieve-1.jpg');">
+                    <div class="cert-id-badge">#ACH-05</div>
+                    <div class="project-overlay" style="background: linear-gradient(to top, rgba(2,6,23,0.95) 0%, rgba(2,6,23,0.4) 50%, rgba(2,6,23,0) 100%);"></div>
+                    <div class="project-info">
+                        <h3 style="color: var(--primary);">Science Exhibition</h3>
+                        <p style="color: white; font-weight: bold;">Exhibition Success</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
+    
     <!-- Blog Section -->
     <section id="blog">
         <div class="container">

@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'TECH-AURA 2026',
             subtitle: '1st Rank in Intercollegiate Hackathon',
             description: '🥇 Winner – Techaura Hackathon 2026 (100+ teams)',
-            photos: ['assets/cert-1.jpg', 'assets/achieve-3.jpg', 'assets/achieve-4.jpg']
+            photos: ['assets/cert-5.jpg', 'assets/achieve-3.jpg', 'assets/achieve-4.jpg']
         },
         'cert-2': {
             title: 'TECHTANTRA 2K26',
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Annual Science Exhibition',
             subtitle: 'Outstanding Achievement',
             description: 'Certificate of appreciation for exceptional performance and securing a winning position in the annual science exhibition.',
-            photos: ['assets/cert-5.jpg']
+            photos: ['assets/cert-1.jpg']
         },
 
         'city-eye': {
@@ -341,3 +341,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+function switchTab(tabName) {
+    const certsGrid = document.getElementById('certs-grid');
+    const achievementsGrid = document.getElementById('achievements-grid');
+    const btns = document.querySelectorAll('.tab-btn');
+    
+    btns.forEach(btn => btn.classList.remove('active'));
+    
+    if(tabName === 'certs') {
+        certsGrid.style.display = 'grid';
+        achievementsGrid.style.display = 'none';
+        btns[0].classList.add('active');
+    } else {
+        certsGrid.style.display = 'none';
+        achievementsGrid.style.display = 'grid';
+        btns[1].classList.add('active');
+    }
+}
