@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'TECHTANTRA 2K26',
             subtitle: 'National Level Technical Event',
             description: '🥈 Secured 2nd Prize among 50+ projects at TechVision National Level Project Competition 2026',
-            photos: ['assets/cert-4.jpg', 'assets/achieve-4.jpg']
+            photos: ['assets/cert-4.jpg', 'assets/achieve-2.jpg']
         },
         'cert-3': {
             title: 'Manthan4Yuva Campaign',
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'TECHXPLORE 2K26',
             subtitle: 'Technical Hackathon Winner',
             description: '🥇 Winner – TECHXPLORE 2K26 Technical Hackathon (100+ teams)',
-            photos: ['assets/cert-2.jpg', 'assets/achieve-2.jpg']
+            photos: ['assets/cert-2.jpg', 'assets/achieve-4.jpg']
         },
         'cert-5': {
             title: 'Annual Science Exhibition',
