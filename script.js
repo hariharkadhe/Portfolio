@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'City-Eye',
             subtitle: 'Real-time, AI-powered smart city command center',
             description: 'Built with React, FastAPI, and YOLOv8 to autonomously detect and geospatially map civic incidents from live video feeds.',
-            photos: ['assets/city-eye-1.jpg', 'assets/city-eye-2.jpg']
+            photos: ['assets/city-eye-1.jpg', 'assets/city-eye-2.jpg', 'assets/city-eye-3.jpg', 'assets/city-eye-4.jpg', 'assets/city-eye-5.jpg']
         },
         'iogenius': {
             title: 'IOGENIUS',
