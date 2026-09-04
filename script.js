@@ -227,26 +227,26 @@ document.addEventListener('DOMContentLoaded', () => {
         'cert-1': {
             title: 'TECH-AURA 2026',
             subtitle: '1st Rank in Intercollegiate Hackathon',
-            description: 'Awarded for securing the First Rank in the Hackathon at TECH-AURA 2026, demonstrating exceptional technical and problem-solving skills.',
-            photos: ['assets/cert-1.jpg']
+            description: '🥇 Winner – Techaura Hackathon 2026 (100+ teams)',
+            photos: ['assets/cert-1.jpg', 'assets/achieve-3.jpg', 'assets/achieve-4.jpg']
         },
         'cert-2': {
             title: 'TECHTANTRA 2K26',
             subtitle: 'National Level Technical Event',
-            description: 'Awarded for outstanding performance and securing a top rank in the national level technical event organized by ISTE Cell.',
-            photos: ['assets/cert-2.jpg']
+            description: '🥈 Secured 2nd Prize among 50+ projects at TechVision National Level Project Competition 2026',
+            photos: ['assets/cert-2.jpg', 'assets/achieve-2.jpg']
         },
         'cert-3': {
             title: 'Manthan4Yuva Campaign',
             subtitle: '1st Rank in Smart City Competition',
-            description: 'Certificate of Excellence for securing 1st position in the Smart City hackathon and ideation competition.',
-            photos: ['assets/cert-3.jpg']
+            description: '🥇 Winner – Manthan4Yuva Nagpur Viksit Hackathon 2026 at VNIT, among 3500+ participants',
+            photos: ['assets/cert-3.jpg', 'assets/achieve-5.jpg']
         },
         'cert-4': {
             title: 'TECHXPLORE 2K26',
             subtitle: 'Technical Hackathon Winner',
-            description: 'Proudly awarded for actively participating and securing the Winner position in the Departmental Technical Hackathon.',
-            photos: ['assets/cert-4.jpg']
+            description: '🥇 Winner – TECHXPLORE 2K26 Technical Hackathon (100+ teams)',
+            photos: ['assets/cert-4.jpg', 'assets/achieve-1.jpg']
         },
         'cert-5': {
             title: 'Annual Science Exhibition',
